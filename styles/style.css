@@ -1,0 +1,36 @@
+/* Шапка */
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.header__links-list {
+  display: flex;
+  gap: 30px;
+}
+
+.header__links-list-item {
+  list-style: circle;
+}
+
+.header__link {
+  color: #000;
+  text-transform: lowercase;
+}
+
+.header__link_active {
+  text-decoration: underline;
+}
+
+.address {
+  justify-self: end;
+  max-width: 200px;
+  font-style: normal;
+  text-align: right;
+}
+
+.address a {
+  color: #000;
+}
